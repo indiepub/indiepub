@@ -2,13 +2,13 @@
   "name": "@indiepub/comet",
   "version": "0.0.1",
   "type": "module",
-  "types": "./types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": "./src/index.js"
   },
   "files": [
     "src",
-    "types"
+    "dist"
   ],
   "keywords": [
     "withastro"
