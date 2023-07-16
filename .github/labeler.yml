@@ -1,0 +1,10 @@
+# See https://github.com/actions/labeler
+
+"🚨 action":
+  - .github/workflows/**
+
+"🌟 core":
+  - packages/comet/**
+
+"📚 docs":
+  - docs/**
