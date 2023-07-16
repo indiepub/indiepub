@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "dev": "pnpm -r --parallel --filter '@indiepub/*' --filter @example/basics dev",
     "version": "pnpm changeset version && pnpm i --no-frozen-lockfile"
   },
   "license": "MIT",

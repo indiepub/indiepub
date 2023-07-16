@@ -1,6 +1,8 @@
-import type { AstroIntegration } from "astro";
-
-export default function createIntegration(): AstroIntegration {
+/**
+ *
+ * @returns {import("astro").AstroIntegration}
+ */
+export default function createIntegration() {
   // See the Integration API docs for full details
   // https://docs.astro.build/en/reference/integrations-reference/
   return {

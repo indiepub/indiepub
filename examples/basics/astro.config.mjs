@@ -1,5 +1,5 @@
 import { defineConfig } from "astro/config";
-import comet from "@inidepub/comet";
+import comet from "@indiepub/comet";
 
 // https://astro.build/config
 export default defineConfig({

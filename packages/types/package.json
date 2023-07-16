@@ -1,5 +1,5 @@
 {
-  "name": "@indiepub/comet",
+  "name": "@indiepub/types",
   "version": "0.0.1",
   "type": "module",
   "types": "./types/index.d.ts",
@@ -11,19 +11,16 @@
     "types"
   ],
   "keywords": [
-    "withastro"
+    "indieweb"
   ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch"
   },
-  "devDependencies": {
-    "@indiepub/types": "workspace:*",
-    "@types/node": "^20.4.2",
-    "astro": "^2.8.3",
-    "typescript": "^5.1.6"
+  "dependencies": {
+    "zod": "^3.21.4"
   },
-  "peerDependencies": {
-    "astro": "^2.5.0"
+  "devDependencies": {
+    "typescript": "^5.1.6"
   }
 }
